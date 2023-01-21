@@ -10,7 +10,7 @@
         <Brand @carName="setBrand" v-if="showStep == 1" />
         <Model @carModel="setModel" :carId="carId" v-if="showStep == 2" />
         <Years @carYear="setYear" v-if="showStep == 3" />
-        <Work @carWork="setWork" v-if="showStep == 4" />
+        <Work  v-if="showStep == 4" />
       </div>
 
       <div class="showFilter">
@@ -129,9 +129,7 @@ export default {
       this.filterItem.push(value);
       this.showStep = 4;
     },
-    setWork(value) {
-      this.carKm = value;
-    },
+    
   },
 };
 </script>
