@@ -1,0 +1,36 @@
+ul {
+  padding-left: 0px;
+  list-style: none;
+  margin: 0px;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+:root {
+  --main-color: #5ac1b8;
+
+  --hover-bg: #5ac1b810;
+  --white: #fff;
+
+  --black: #16161a;
+  --gray1: #16161a;
+  --gray2: #828296;
+  --gray3: #a9a9b9;
+  --gray4: #dfdfe8;
+  --gray5: #f7f7fb;
+
+  --success: #0ed684;
+  --warning: #ffa826;
+  --info: #267aff;
+  --error: #f14141;
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "AvenirArabic";
+    src: url("../fonts/AvenirArabic-Light.otf") format("truetype");
+    font-weight: normal;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  button,
+  div {
+    font-family: "AvenirArabic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+  }
